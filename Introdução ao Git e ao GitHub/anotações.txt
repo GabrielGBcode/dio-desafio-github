@@ -1,0 +1,29 @@
+Site para instalação do Git: https://git-scm.com/
+
+O que é Git?
+	- Git é um sistema padronizado mundialmente para o controle de versão, isso é, uma versão local (clone local) é um repositório de controle de versão completo.
+
+GitBash: GitBash é um terminal extendido para otimizar o uso do Git.
+	Alguns comandos utilizados:
+		. ls (parâmetro) → lista os arquivos/pastas;
+		. cd <arquivo> → entra no pasta desejada;
+		. clear → limpa o terminal;
+		. mkdir (nome) → cria um arquivo;
+		. rmdir (nome) → exclui um arquivo SE ele estiver vazio;
+		. rm (parâmentro) <arquivo> → remove o diretório e tudo que há dentro;
+		. pwd → mostra caminho do arquivo;
+		. cat → lê o conteúdo arquivo;
+		. mv <arquivo_origem> <arquivo_desitno> → move um arquivo de local
+		. git config --global user.name (nome);
+		. git config --global user.email (email);
+		. git init → gera um arquivo .git na pasta;
+		. git status → verifica os arquivos dentro da pasta e avisa caso haja alteração;
+		. git add <arquivos> → começa a monitorar os arquivos adicionados;
+		. git commit -m "nome" → faz o commit dos arquivos, deixando-os prontos para enviar as alterações;
+		. git clone [url] → clona um repositório já existente na máquina local;
+		. git push origin master → "puxa" os arquivos do repositório remoto para a máquina local;
+		. git pull origin master → "empurra" os arquivos e alterações para o repostitório remoto;
+		. git rm -f <arquivo> → remove o arquivo git, assim, parando o monitoramento;
+
+O que é GitHub?
+	- GitHub é tanto um sistema em nuvem que armazena códigos de milhões de desenvolvedores ao redor do mundo, como, também pode ser considerado uma rede social para programadores postarem seus projetos e seus avanços.
